@@ -102,11 +102,11 @@ The `instance_ids` refer to the unique identifier assigned to each instance, whi
 - Configuration for the production environment (`prod`).
 
 ## 7. Best Practices
-
-Terraform’s best practices include 
-using consistent naming, 
-adding comments, 
-testing in non-prod, 
-using modules and folders, 
-defining env configs with vars, 
-referencing outputs, and storing state files in a backend. These practices ensure organized, maintainable, and error-free configurations.
+These practices ensure organized, maintainable, and error-free configurations.
+- Terraform’s best practices include 
+  - using consistent naming, 
+  - adding comments, 
+  - testing in non-prod, 
+  - using modules and folders, 
+  - defining env configs with vars, 
+  - referencing outputs, and storing state files in a backend.
