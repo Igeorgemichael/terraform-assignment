@@ -1,19 +1,19 @@
-## [Terraform-Exercise]() 1
+## [Terraform-Exercise]() 
 ### Task: 
 
-Using Terrafrom create an aws instance (ubuntu) in multiple regions (free-tier) (eu-west-1 and eu-central-1)
+- Using Terrafrom create an aws instance (ubuntu) in multiple regions (free-tier) (eu-west-1 and eu-central-1)
 
-- should be on minimum of 2 availablity zones
+  - should be on minimum of 2 availablity zones
 
-- should be reuseable
+  - should be reuseable
 
-- can be built on multiple environments (dev, prod)
+  - can be built on multiple environments (dev, prod)
 
-- should have a script that creates ansible, docker container
+  - should have a script that creates ansible, docker container
 
-- your scripts should be modularized
+  - your scripts should be modularized
 
-- Create a VPC for the various environments
+  - Create a VPC for the various environments
 
 ---
 
@@ -87,7 +87,7 @@ The `modules/ec2` Instance module is a tool that allows users to provision Amazo
 This module is equipped with several features, including the ability to provision Ubuntu-focal-20.04 LTS Amazon Machine Images (AMIs) and generate key pairs for secure access to these instances. With these capabilities, this module offers a powerful toolset for managing EC2 instances securely and efficiently.
 [View Instances Module Configuration](/modules/ec2/main.tf)
 
-### ec2 module outputs
+### EC2 module outputs
 The `instance_ids` refer to the unique identifier assigned to each instance, while `public_ip_addresses` indicates the public IP address assigned to each instance.
 [View EC2 Module Outputs](/modules/ec2/outputs.tf)
 
